@@ -1,0 +1,206 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+header {
+  background: ;
+}
+
+#navbar1 {
+  display: none;
+}
+
+#navbar2 ul {
+  display: none;
+}
+
+#navbar2 {
+  padding: 2rem;
+}
+
+#navbar2 h1 {
+  padding-bottom: 2rem;
+}
+#navbar2 input {
+  width: 100%;
+  border-radius: 3px;
+  border: none;
+  background: #f5f5f5;
+  padding: 0.9rem;
+}
+
+#navbar2 {
+  width: 100%;
+}
+
+#section1 {
+  text-align: left;
+  margin-left: 20px;
+  width: 70%;
+  line-height: 1.9;
+  height: 45vh;
+}
+
+#section1 h1 {
+  padding-bottom: 2rem;
+}
+
+#section1 p {
+  padding-bottom: 2rem;
+}
+
+#section1 button {
+  color: white;
+  background: #00d09c;
+  border: none;
+  padding: 1rem;
+  width: 60%;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+#section2 {
+  background: #e4faf4;
+  text-align: center;
+  margin: auto;
+  height: 40vh;
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+#section2 h1 {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+#section2 p {
+  padding-bottom: 3rem;
+}
+
+.images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 50px;
+}
+
+#section3 {
+  height: ;
+  text-align: left;
+  padding-left: 1rem;
+}
+
+#section3 p {
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+#section3ft {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#section3ft i {
+  margin-top: 2rem;
+  color: #5aca9d;
+}
+
+#section3ft h1 {
+  margin-bottom: 2rem;
+}
+
+#sec3list {
+  padding-bottom: 2rem;
+  line-height: 1.9;
+}
+
+#watchvideo {
+  color: #5aca9d;
+  display: inline-block;
+}
+
+#watchvideocontainer {
+  font-size: 1rem;
+}
+
+#sec3list p {
+  margin-top: 20px;
+}
+
+#watchvideo {
+  padding: ;
+}
+
+.yogapic {
+  height: 251.28px;
+  width: 335px;
+  align-self: center;
+  padding-top: 4rem;
+}
+
+#section3 button {
+  color: white;
+  background: #00d09c;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  height: 3rem;
+}
+
+#section4 {
+  padding-left: 1rem;
+  margin-top: 5rem;
+  background: linear-gradient(#e4faf4, #fff);
+}
+
+#section4 p {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  line-height: 1.9;
+}
+
+#section4 button {
+  margin-bottom: 2rem;
+  color: white;
+  background: #00d09c;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+#sec4icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 2rem;
+}
+
+#sec4icons img {
+  margin-top: 2rem;
+  width: 152px;
+  height: 46px;
+}
+
+#section4 h1 {
+  padding-top: 4rem;
+}
+
+#sec3info2 {
+  text-align: center;
+  padding-right: 1rem;
+}
