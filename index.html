@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <script
       src="https://kit.fontawesome.com/bac3a1f170.js"
       crossorigin="anonymous"
@@ -13,15 +17,11 @@
   </head>
   <body>
     <header>
-      <nav id="navbar1">
-        <ul>
-          <li>Download App</li>
-          <li>Blog</li>
-          <li>Language: English</li>
-        </ul>
-      </nav>
       <nav id="navbar2">
-        <h1>Fund Guru</h1>
+        <div class="logo">
+          <img src="/assets/fundgurulogo.png" alt="logo" class="fundgurulogo" />
+          <a href="index.html"><h1>Fund Guru</h1></a>
+        </div>
         <input
           type="search"
           name="searchbar"
@@ -36,20 +36,32 @@
       </nav>
     </header>
     <section id="section1">
-      <h1>Investing made Easy</h1>
-      <p>
-        India's fastest growing investment platform with 20 Lac+ users. We use
-        edge-cutting technology to ensure that your personal information is
-        fully encrypted and securely stored.
-      </p>
-      <button>Get Started Now</button>
+      <div id="section1info">
+        <h1>Investing made Easy</h1>
+        <p>
+          India's fastest growing investment platform with 20 Lac+ users. We use
+          edge-cutting technology to ensure that your personal information is
+          fully encrypted and securely stored.
+        </p>
+        <button>Get Started Now</button>
+      </div>
+      <div>
+        <img
+          src="/assets/person1.png"
+          alt=""
+          class="firstimage"
+          id="responsive"
+        />
+      </div>
     </section>
     <section id="section2">
-      <h1>Trusted by Millions of</h1>
-      <p>
-        We are registered as a disributor with AMFI, as an investment advisor
-        with SEBI and platform partners with BSE.
-      </p>
+      <div>
+        <h1>Trusted by Millions of</h1>
+        <p>
+          We are registered as a disributor with AMFI, as an investment advisor
+          with SEBI and platform partners with BSE.
+        </p>
+      </div>
       <div class="images">
         <img src="/assets/trustedby2.png" />
         <img src="/assets/trustedby1.png" />
@@ -57,24 +69,30 @@
       </div>
     </section>
     <section id="section3">
-      <img src="/assets/yoga-illustration.png" alt="yoga" class="yogapic" />
-      <p>About mutal funds</p>
-      <h1>Learn with Fund Guru</h1>
-      <br />
-      <br />
-      <div id="sec3list">
-        <p>Mutual Funds - Introduction and Working</p>
-        <p>Benefits of Investing in Mutual Funds</p>
-        <p>Mutual Fund Schemes and Types</p>
-        <p>Ways to Choose Mutual Fund Schemes</p>
-        <p>Ofer Documents and Statements</p>
-        <p>Transactions in Mutual Funds</p>
-      </div>
-      <div id="section3ft">
-        <button>Known More</button>
-        <div #watchvideocontainer>
-          <p id="watchvideo">Watch Video</p>
-          <i class="far fa-play-circle"></i>
+      <img
+        src="/assets/yoga-illustration.png"
+        alt="yoga"
+        class="yogapic"
+        id="responsive"
+      />
+      <div>
+        <h1>Learn with Fund Guru</h1>
+        <br />
+        <br />
+        <div id="sec3list">
+          <p>Mutual Funds - Introduction and Working</p>
+          <p>Benefits of Investing in Mutual Funds</p>
+          <p>Mutual Fund Schemes and Types</p>
+          <p>Ways to Choose Mutual Fund Schemes</p>
+          <p>Ofer Documents and Statements</p>
+          <p>Transactions in Mutual Funds</p>
+        </div>
+        <div id="section3ft">
+          <button>Known More</button>
+          <div #watchvideocontainer>
+            <p id="watchvideo">Watch Video</p>
+            <i class="far fa-play-circle"></i>
+          </div>
         </div>
       </div>
     </section>
@@ -82,7 +100,7 @@
       <h1>Ask the Expert</h1>
       <p>You can schedule a meeting with an expense manager</p>
       <div id="sec4info">
-        <div>
+        <div class="info1">
           <h2>Investing made easy</h2>
           <p>
             Three simple options- cautions, balanced, adventurous. Experts will
@@ -90,7 +108,7 @@
           </p>
           <button>Invest Now</button>
         </div>
-        <div>
+        <div class="info2">
           <h2>Schedule a meeting</h2>
           <p>
             Expert will give you the best advice. Schedule a meeting with the
@@ -98,7 +116,10 @@
           </p>
           <button>Schedule Now</button>
         </div>
-        <div id="sec3info2">
+      </div>
+
+      <div id="sec4info2">
+        <div>
           <h1>Manage your Investment from your hand</h1>
           <p>
             Now you will be at ease of investing buying and selling easier with
@@ -112,5 +133,26 @@
         </div>
       </div>
     </section>
+    <footer id="section5">
+      <h3>Mutal Funds</h3>
+      <div id="footerbuttons">
+        <button>Quick Links</button>
+        <button>Top Funded Houses</button>
+        <button>Resources</button>
+      </div>
+      <div id="footercontact">
+        <div>
+          <h4>Call Us At</h4>
+          <p>+91-8130813864</p>
+          <p>+91-8860039452</p>
+        </div>
+        <div>
+          <h4>Write to us at</h4>
+          <p>contact@fundguru.com</p>
+        </div>
+      </div>
+      <hr />
+      <p id="copyright">Copyright 2019 Mutal Funds. All rights reserved.</p>
+    </footer>
   </body>
 </html>
