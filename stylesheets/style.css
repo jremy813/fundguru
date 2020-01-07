@@ -20,7 +20,6 @@ body {
 
 #responsive {
   max-width: 525px;
-  height: auto;
 }
 
 #navbar1 {
@@ -104,7 +103,6 @@ img {
 }
 
 #section3 {
-  width: ;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -297,10 +295,6 @@ i {
   margin-left: -15px;
 }
 
-#section3 img {
-  max-width: ;
-  height: ;
-}
 /* Media Queries*/
 
 @media (min-width: 700px) {
@@ -363,6 +357,11 @@ i {
     margin: auto;
   }
 
+  #section1 h1 {
+    font-size: 2.5rem;
+    padding-bottom: 50px;
+  }
+
   #section1info {
     margin-top: 5rem;
     width: 70%;
@@ -370,9 +369,10 @@ i {
 
   .firstimage {
     display: grid;
+    top: 142px;
+    left: 757px;
     width: 525px;
-    height: 400px;
-    padding-left: 5rem;
+    height: 508px;
   }
 
   #section2 {
