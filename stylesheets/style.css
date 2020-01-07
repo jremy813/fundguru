@@ -54,7 +54,7 @@ body {
   margin-left: 20px;
   width: 70%;
   line-height: 1.9;
-  height: 45vh;
+  padding-bottom: 2rem;
 }
 
 #section1 h1 {
@@ -79,12 +79,6 @@ body {
   background: #e4faf4;
   text-align: center;
   margin: auto;
-  height: 40vh;
-}
-
-img {
-  height: 50px;
-  width: 50px;
 }
 
 #section2 h1 {
@@ -99,10 +93,17 @@ img {
 .images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  padding-left: 50px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: auto;
+}
+
+.images img {
+  max-width: 100px;
 }
 
 #section3 {
+  padding-top: 2rem;
   display: grid;
   grid-template-columns: 1fr;
 }
@@ -158,10 +159,9 @@ i {
 }
 
 .yogapic {
-  height: 251.28px;
+  height: auto;
   width: 335px;
   align-self: center;
-  padding-top: 4rem;
 }
 
 #section3 button {
@@ -229,6 +229,8 @@ i {
   display: grid;
   grid-template-columns: 1fr;
   padding-left: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 #footerbuttons button {
@@ -245,14 +247,18 @@ i {
   cursor: pointer;
   border: 1px solid #f0f0f0;
   opacity: 1;
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 #footercontact {
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-left: 1rem;
-  margin-top: 2rem;
+}
+
+#footercontact p {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 #footercontact h4 {
@@ -282,6 +288,7 @@ i {
 
 #sec3list ul li {
   list-style: none;
+  font-size: 14px;
 }
 
 #sec3list ul li:before {
@@ -295,6 +302,9 @@ i {
   margin-left: -15px;
 }
 
+div {
+  border: 0.5px solid;
+}
 /* Media Queries*/
 
 @media (min-width: 700px) {
