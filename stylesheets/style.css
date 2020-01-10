@@ -14,8 +14,29 @@ body {
   display: none;
 }
 
+.footerimg {
+  display: none;
+}
+
 .secondimage {
   display: none;
+}
+
+.person2 {
+  display: none;
+}
+
+.fundgurulogo {
+  width: 45px;
+  height: 45px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo h1 {
+  margin-top: 0.5rem;
 }
 
 #responsive {
@@ -205,6 +226,10 @@ i {
   padding-bottom: 2rem;
 }
 
+#sec4info {
+  padding-top: 2rem;
+}
+
 #sec4icons img {
   margin-top: 2rem;
   width: 152px;
@@ -292,15 +317,8 @@ i {
   font-size: 14px;
 }
 
-#sec3list ul li:before {
-  content: "";
-  display: inline-block;
-  height: 25px;
-  width: 35px;
-  background: url(/assets/checkboxicon.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  margin-left: -15px;
+.dash {
+  font-size: 20px;
 }
 
 /* Media Queries*/
@@ -313,6 +331,10 @@ i {
     margin: auto;
     padding: 1rem;
     text-align: center;
+  }
+
+  .dash {
+    font-size: 20px;
   }
 
   #navbar2 ul li:hover {
@@ -408,16 +430,6 @@ i {
     list-style: none;
   }
 
-  #sec3list ul li:before {
-    content: "";
-    display: inline-block;
-    height: 25px;
-    width: 35px;
-    background: url(/assets/checkboxicon.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-left: -35px;
-  }
   #section3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -443,16 +455,61 @@ i {
   #sec4info {
     display: grid;
     text-align: center;
+    grid-template-columns: 50% 50%;
+  }
+
+  .person2 {
+    display: grid;
+    width: 540px;
+    height: 673px;
+  }
+
+  .sec4img {
+    margin: auto;
+    padding-top: 200px;
+  }
+
+  .info1 {
+    display: grid;
     grid-template-columns: 1fr 1fr;
+    margin: auto;
+    padding-top: 200px;
+  }
+
+  #sec4lead {
+    text-align: left;
+  }
+
+  .info1 p {
+    font-size: 15px;
   }
 
   #sec4info div {
-    width: 50%;
-    margin: auto;
     text-align: center;
   }
 
+  #footerinfosec {
+    display: grid;
+    grid-template-columns: 25% 25%;
+  }
+
+  #footercontact div {
+    padding: 1.5rem;
+  }
+
+  #footercontact {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footerimg {
+    display: grid;
+    margin-left: 200px;
+  }
+
   #sec4info2 {
+    margin-top: 200px;
     display: grid;
     grid-template-columns: 1fr;
   }
