@@ -39,10 +39,6 @@ body {
   margin-top: 0.5rem;
 }
 
-#responsive {
-  max-width: 525px;
-}
-
 #navbar1 {
   display: none;
 }
@@ -321,7 +317,7 @@ i {
   font-size: 20px;
 }
 
-/* Media Queries*/
+/* Desktop width*/
 
 @media (min-width: 700px) {
   #navbar2 {
@@ -331,6 +327,11 @@ i {
     margin: auto;
     padding: 1rem;
     text-align: center;
+  }
+
+  .yogapic {
+    max-width: 627px;
+    height: auto;
   }
 
   .dash {
@@ -366,7 +367,7 @@ i {
   #navbar2 div {
     flex: 1;
     text-align: left;
-    padding-left: 13rem;
+    padding-left: 2rem;
     margin-top: 1rem;
   }
 
@@ -383,7 +384,7 @@ i {
 
   #section1 {
     display: grid;
-    grid-template-columns: 60% 20%;
+    grid-template-columns: 50% 60%;
     margin: auto;
   }
 
@@ -394,15 +395,14 @@ i {
 
   #section1info {
     margin-top: 5rem;
-    width: 70%;
+    width: 78%;
   }
 
   .firstimage {
     display: grid;
-    top: 142px;
-    left: 757px;
-    width: 525px;
+    max-width: 525px;
     height: 508px;
+    float: right;
   }
 
   #section2 {
@@ -456,12 +456,13 @@ i {
     display: grid;
     text-align: center;
     grid-template-columns: 50% 50%;
+    width: 100%;
   }
 
   .person2 {
     display: grid;
-    width: 540px;
-    height: 673px;
+    max-width: 540px;
+    height: auto;
   }
 
   .sec4img {
@@ -533,5 +534,123 @@ i {
 
   #watchvideo {
     margin-bottom: 1rem;
+  }
+}
+
+/* Tablet width */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .firstimage {
+    margin-top: 5rem;
+    max-width: 500px;
+    height: auto;
+  }
+
+  #section1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #section1info {
+    width: 100%;
+    flex: 1;
+  }
+
+  #section2 {
+    margin-top: 3rem;
+  }
+
+  #section2 div {
+    width: 100%;
+  }
+
+  .yogapic {
+    max-width: 400px;
+    height: auto;
+  }
+
+  .person2 {
+    max-width: 300px;
+    height: auto;
+  }
+
+  .footerimg {
+    margin-left: 0;
+  }
+
+  .info1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .sec4img {
+    padding-top: 165px;
+  }
+
+  #navbar2 {
+    width: 100%;
+  }
+
+  #navbar2 h1 {
+    display: none;
+  }
+}
+
+/* second tablet */
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  .firstimage {
+    margin-top: 5rem;
+    max-width: 500px;
+    height: auto;
+  }
+
+  #section1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  #section1info {
+    width: 100%;
+    flex: 1;
+  }
+
+  #section2 {
+    margin-top: 3rem;
+  }
+
+  #section2 div {
+    width: 100%;
+  }
+
+  .yogapic {
+    max-width: 400px;
+    height: auto;
+  }
+
+  .person2 {
+    max-width: 300px;
+    height: auto;
+  }
+
+  .footerimg {
+    margin-left: 0;
+  }
+
+  .info1 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .sec4img {
+    padding-top: 165px;
+  }
+
+  #navbar2 {
+    width: 100%;
+  }
+
+  #navbar2 h1 {
+    display: none;
   }
 }
